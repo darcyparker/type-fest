@@ -36,9 +36,7 @@ guestFencingTeam.push('Sam');
 @category Utilities
 */
 export type FixedLengthArray<Element, Length extends number> =
-	Length extends Length ?
-		number extends Length ?
-			// Because `Length extends number` and `number extends Length`, then Length is not a specific finite number
-			Element[] : // It's not fixed length
-			BuildTupleHelper<Element, Length, []> : // Otherwise it is fixed length tuple
-		never;
+	number extends Length ?
+		// Because `Length extends number` and `number extends Length`, then Length is not a specific finite number
+		Element[] : // It's not fixed length
+		BuildTupleHelper<Element, Length, []>; // Otherwise it is fixed length tuple
