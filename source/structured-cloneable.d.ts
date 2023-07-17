@@ -24,8 +24,8 @@ export type StructuredPrimitive =
 
 type StructuredWebAPIType =
 	// | CropTarget
-	// | GPUCompilationInfo
-	// | GPUCompilationMessage
+	// | GPUCompilationInfo //TODO https://github.com/gpuweb/types/blob/main/dist/index.d.ts
+	// | GPUCompilationMessage //TODO https://github.com/gpuweb/types/blob/main/dist/index.d.ts
 	| AudioData
 	| Blob
 	| CryptoKey
