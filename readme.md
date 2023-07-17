@@ -197,6 +197,10 @@ type ShouldBeNever = IfAny<'not any', 'not never', 'never'>;
 - [`JsonArray`](source/basic.d.ts) - Matches a JSON array.
 - [`JsonValue`](source/basic.d.ts) - Matches any valid JSON value.
 
+### Structured Cloneable
+
+- [`StructedClonable`](source/structured-cloneable.d.ts) - Matches any Javascript object that can be used with [`structuredClone()`](https://developer.mozilla.org/en-US/docs/Web/API/structuredClone)
+
 ### Async
 
 - [`Promisable`](source/promisable.d.ts) - Create a type that represents either the value or the value wrapped in `PromiseLike`.

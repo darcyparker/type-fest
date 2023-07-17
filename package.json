@@ -55,5 +55,8 @@
 		"compilerOptions": {
 			"noUnusedLocals": false
 		}
+	},
+	"dependencies": {
+		"@types/dom-webcodecs": "^0.1.8"
 	}
 }

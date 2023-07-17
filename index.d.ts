@@ -3,6 +3,7 @@ export * from './source/primitive';
 export * from './source/typed-array';
 export * from './source/basic';
 export * from './source/observable-like';
+export * from './source/structured-cloneable';
 
 // Utilities
 export type {EmptyObject, IsEmptyObject} from './source/empty-object';
